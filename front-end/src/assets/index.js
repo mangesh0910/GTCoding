@@ -1,0 +1,20 @@
+import BG1 from '../assets/images/BG1.png';
+import BG2 from '../assets/images/BG2.png';
+import BG3 from '../assets/images/BG3.png';
+import BG4 from '../assets/images/BG4.png';
+import BG5 from '../assets/images/BG5.png';
+import BG6 from '../assets/images/BG6.png';
+import BG7 from '../assets/images/BG7.png';
+import Blog1 from '../assets/images/Blog1.png';
+import Blog2 from '../assets/images/Blog2.png';
+import Blog3 from '../assets/images/Blog3.png';
+import HeroText from '../assets/images/HeroText.png';
+import Testimonial1 from '../assets/images/Testimonial1.png';
+import Testimonial2 from '../assets/images/Testimonial2.png';
+import Testimonial3 from '../assets/images/Testimonial3.png';
+import FBLogo from '../assets/icons/FBLogo.svg';
+import InstagramLogo from '../assets/icons/InstagramLogo.svg';
+import MenuIcon from '../assets/icons/MenuIcon.svg';
+import TwitterLogo from '../assets/icons/TwitterLogo.svg';
+
+export { BG1, BG2, BG3, BG4, BG5, BG6, BG7, Blog1, Blog2, Blog3, HeroText, Testimonial1, Testimonial2, Testimonial3, FBLogo, InstagramLogo, TwitterLogo, MenuIcon };
