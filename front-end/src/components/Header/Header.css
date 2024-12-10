@@ -1,0 +1,59 @@
+header {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/images/BG1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+header .wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+header .cta {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 453px;
+  border-width: 4px 4px 0px 4px;
+  border-style: solid;
+  border-color: #ffffff;
+  backdrop-filter: blur(25px);
+  border-radius: 20px 20px 0px 0px;
+  padding: 50px 40px;
+}
+
+header .cta .course-title {
+  font-weight: 800;
+  font-size: 16px;
+  color: #ffffff;
+  position: relative;
+}
+
+header .cta .course-title::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  width: 60px;
+  height: 4px;
+  background: var(--red-color);
+}
+
+header .cta .course-desc {
+  font-family: "Alegreya";
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 140%;
+}
+
+header .cta .btn-container {
+  padding: 10px 32px;
+  background: var(--red-color);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
