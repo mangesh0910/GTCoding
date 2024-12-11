@@ -1,0 +1,42 @@
+section .wrapper {
+  position: relative;
+}
+
+section .wrapper::after {
+  position: absolute;
+  content: url("../../assets/icons/BGElement1.svg");
+  bottom: -10px;
+  right: -30px;
+}
+
+section .wrapper .content-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .content-container ul li {
+  font-family: "Alegreya";
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  list-style-type: none;
+  padding-bottom: 24px;
+  position: relative;
+}
+
+section .content-container ul li::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--red-color);
+  left: -20px;
+  bottom: 0px;
+  transform: translateY(-400%);
+}
+
+section .content-container .topics-image {
+  width: 550px;
+  object-fit: cover;
+}

@@ -8,7 +8,6 @@ import BG7 from '../assets/images/BG7.png';
 import Blog1 from '../assets/images/Blog1.png';
 import Blog2 from '../assets/images/Blog2.png';
 import Blog3 from '../assets/images/Blog3.png';
-import HeroText from '../assets/images/HeroText.png';
 import Testimonial1 from '../assets/images/Testimonial1.png';
 import Testimonial2 from '../assets/images/Testimonial2.png';
 import Testimonial3 from '../assets/images/Testimonial3.png';
@@ -16,5 +15,7 @@ import FBLogo from '../assets/icons/FBLogo.svg';
 import InstagramLogo from '../assets/icons/InstagramLogo.svg';
 import MenuIcon from '../assets/icons/MenuIcon.svg';
 import TwitterLogo from '../assets/icons/TwitterLogo.svg';
+import BGElement1 from '../assets/icons/BGElement1.svg';
+import BGElement2 from '../assets/icons/BGElement2.svg';
 
-export { BG1, BG2, BG3, BG4, BG5, BG6, BG7, Blog1, Blog2, Blog3, HeroText, Testimonial1, Testimonial2, Testimonial3, FBLogo, InstagramLogo, TwitterLogo, MenuIcon };
+export { BG1, BG2, BG3, BG4, BG5, BG6, BG7, Blog1, Blog2, Blog3, Testimonial1, Testimonial2, Testimonial3, FBLogo, InstagramLogo, TwitterLogo, MenuIcon, BGElement1, BGElement2 };
