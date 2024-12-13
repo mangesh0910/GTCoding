@@ -10,6 +10,11 @@
   position: relative;
   overflow: hidden;
   margin-top: 10px;
+  transition: all 400ms ease;
+}
+
+#blog .post:hover {
+  transform: scale(1.04);
 }
 
 #blog .post .tag {
