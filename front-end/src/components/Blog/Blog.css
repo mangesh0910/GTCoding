@@ -1,0 +1,62 @@
+#blog .content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+#blog .post {
+  background: #ffffff;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+#blog .post .tag {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0px 16px;
+  gap: 10px;
+  margin-right: 8px;
+  font-family: "Alegreya";
+  font-weight: 700;
+  font-size: 13px;
+}
+
+#blog .post-image {
+  height: 160px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#blog .post .post-title {
+  font-family: "Alegreya";
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  padding: 16px 24px;
+  margin: 0px;
+}
+
+#blog .tag {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+#blog .btn {
+  padding: 4px 32px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-family: "Alegreya", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border-color: white;
+}
+
+#blog .btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}

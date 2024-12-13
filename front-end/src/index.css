@@ -35,6 +35,8 @@ section h2 {
   font-size: 40px;
   color: #ffffff;
   position: relative;
+  margin: 0px;
+  margin-bottom: 40px;
 }
 
 section h2::after {
@@ -45,6 +47,10 @@ section h2::after {
   background: var(--red-color);
   left: 0px;
   bottom: -10px;
+}
+
+section h2.light::after {
+  background: var(--yellow-color);
 }
 
 section .content-container {
