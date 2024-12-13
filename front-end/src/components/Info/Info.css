@@ -1,0 +1,35 @@
+#info .wrapper {
+  position: relative;
+}
+#info .wrapper::after {
+  position: absolute;
+  content: url("../../assets/icons/BGElement2.svg");
+  left: 0;
+  top: -20px;
+}
+
+#info .content-container {
+  justify-content: space-around;
+}
+
+#info .info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#info .info-content .std-count {
+  font-weight: 800;
+  font-size: 32px;
+  color: #ffffff;
+  margin: 5px;
+}
+
+#info .info-content .std-label {
+  font-family: "Alegreya", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  margin: 5px;
+}

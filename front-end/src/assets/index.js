@@ -17,5 +17,7 @@ import MenuIcon from '../assets/icons/MenuIcon.svg';
 import TwitterLogo from '../assets/icons/TwitterLogo.svg';
 import BGElement1 from '../assets/icons/BGElement1.svg';
 import BGElement2 from '../assets/icons/BGElement2.svg';
+import StudentIcon from '../assets/icons/StudentIcon.svg';
+import VideoIcon from '../assets/icons/VideoIcon.svg';
 
-export { BG1, BG2, BG3, BG4, BG5, BG6, BG7, Blog1, Blog2, Blog3, Testimonial1, Testimonial2, Testimonial3, FBLogo, InstagramLogo, TwitterLogo, MenuIcon, BGElement1, BGElement2 };
+export { BG1, BG2, BG3, BG4, BG5, BG6, BG7, Blog1, Blog2, Blog3, Testimonial1, Testimonial2, Testimonial3, FBLogo, InstagramLogo, TwitterLogo, MenuIcon, BGElement1, BGElement2, StudentIcon, VideoIcon };

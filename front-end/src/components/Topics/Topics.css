@@ -1,20 +1,20 @@
-section .wrapper {
+#topics .wrapper {
   position: relative;
 }
 
-section .wrapper::after {
+#topics .wrapper::after {
   position: absolute;
   content: url("../../assets/icons/BGElement1.svg");
   bottom: -10px;
   right: -30px;
 }
 
-section .wrapper .content-container {
+#topics .wrapper .content-container {
   justify-content: space-between;
   align-items: center;
 }
 
-section .content-container ul li {
+#topics .content-container ul li {
   font-family: "Alegreya";
   font-weight: 400;
   font-size: 20px;
@@ -24,7 +24,7 @@ section .content-container ul li {
   position: relative;
 }
 
-section .content-container ul li::before {
+#topics .content-container ul li::before {
   position: absolute;
   content: "";
   width: 8px;
@@ -36,7 +36,7 @@ section .content-container ul li::before {
   transform: translateY(-400%);
 }
 
-section .content-container .topics-image {
+#topics .content-container .topics-image {
   width: 550px;
   object-fit: cover;
 }
