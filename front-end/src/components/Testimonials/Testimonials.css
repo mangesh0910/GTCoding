@@ -1,0 +1,32 @@
+#testimonials .content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 115px;
+}
+#testimonials .testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#testimonials .testimonial .name {
+  font-family: "Alegreya";
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0px;
+  margin-top: 16px;
+}
+#testimonials .testimonial .cmp-name {
+  font-family: "Alegreya";
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin: 0px;
+}
+#testimonials .testimonial .details {
+  font-family: "Alegreya";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
